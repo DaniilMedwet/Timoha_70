@@ -1,0 +1,72 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            html,
+            body {
+                height: 100%;
+            }
+            
+            .bin1 {
+                /* linear */
+                background: linear-gradient(86.89deg, #1BE789 2.57%, #21CDEF 97.43%), linear-gradient(93.67deg, #00D461 11.27%, rgba(255, 255, 255, 0) 112.86%), #00AFE7;
+                height: 100%;
+            }
+            
+            .min1 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 46px;
+                line-height: 54px;
+                color: #FFFFFF;
+            }
+            
+            .bin2 {
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 980px;
+                justify-content: center;
+                margin: auto;
+                padding-top: 50px;
+            }
+            
+            .blok {
+                position: relative;
+                max-width: 370px;
+                height: 94px;
+                /* white */
+                background: #FFFFFF;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+                border-radius: 10px;
+                margin: 10px;
+                padding: 5px 15px;
+            }
+            
+            h2 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 120%;
+                /* or 29px */
+                text-align: center;
+                color: #FFFFFF;
+            }
+            
+            h1 {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 46px;
+                line-height: 54px;
+                /* identical to box height */
+                text-align: center;
+            }
+            
+            .blokimg {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
